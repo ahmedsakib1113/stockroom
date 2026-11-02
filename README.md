@@ -88,7 +88,15 @@ Gross profit = revenue − direct product cost. Gross margin = gross profit / re
 
 ## Scope and access
 
-The initial hosted Site is owner-private, with platform-enforced access for the UI and API. There is one shared café database, not multi-tenant storage. Before enabling public access, implement a read-only demo or per-visitor data isolation and authenticated write authorization. This version does not include returns, staff roles, a supplier ledger, tax accounting, or real payment processing.
+The public portfolio demo uses the production environment variable `STOCKROOM_READ_ONLY=true`. Visitors can explore the dashboard, filters, analytics, and CSV exports. Editing controls are disabled, and the API rejects every POST request with HTTP 403 before processing its body. The public sample database is separate from local development data.
+
+Local development remains editable when `STOCKROOM_READ_ONLY` is unset. There is one shared café database, not multi-tenant storage. An editable hosted deployment must stay owner-private or implement authenticated write authorization and appropriate data isolation. This version does not include returns, staff roles, a supplier ledger, tax accounting, or real payment processing.
+
+Verify the deployed read-only boundary without changing its data:
+
+```sh
+python tests/public_demo_test.py https://YOUR-DEMO-URL
+```
 
 ## Interview walkthrough
 

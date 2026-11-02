@@ -10,8 +10,9 @@ async function seed(){const d=db();if(await d.prepare("SELECT value FROM setting
  // D1 statement batches are atomic. Seed only once, with stable IDs for concurrent first loads.
  statements.push(d.prepare("INSERT OR IGNORE INTO settings (key,value) VALUES ('seeded',?)").bind(today));await d.batch(statements);
 }
-export async function GET(){try{await seed();const d=db();const [p,s]=await Promise.all([d.prepare('SELECT * FROM products ORDER BY name').all(),d.prepare('SELECT * FROM sales ORDER BY date DESC,id DESC').all()]);return Response.json({products:p.results,sales:s.results},{headers:{'Cache-Control':'no-store'}});}catch(e){console.error(e);return Response.json({error:'Unable to load the database. Please try again.'},{status:500});}}
+export async function GET(){try{await seed();const d=db();const [p,s]=await Promise.all([d.prepare('SELECT * FROM products ORDER BY name').all(),d.prepare('SELECT * FROM sales ORDER BY date DESC,id DESC').all()]);return Response.json({products:p.results,sales:s.results,readOnly:env.STOCKROOM_READ_ONLY==='true'},{headers:{'Cache-Control':'no-store'}});}catch(e){console.error(e);return Response.json({error:'Unable to load the database. Please try again.'},{status:500});}}
 export async function POST(req:Request){try{
+ if(env.STOCKROOM_READ_ONLY==='true')return Response.json({error:'This public demo is read-only. Explore the dashboard, filters, analytics, and exports.'},{status:403});
  const origin=req.headers.get('origin');if(origin && origin!==new URL(req.url).origin)return Response.json({error:'Invalid request origin.'},{status:403});
  if(Number(req.headers.get('content-length')||0)>200000)return Response.json({error:'Upload too large.'},{status:413});
  const bodyText=await req.text();if(bodyText.length>200000)throw new Error('Upload too large.');const b=JSON.parse(bodyText);const d=db();await seed();
