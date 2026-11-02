@@ -1,0 +1,721 @@
+order_id,date,product_id,product,category,quantity,unit_price_myr,unit_cost_myr,revenue_myr,gross_profit_myr,source
+demo-2026-08-02-0,2026-08-02,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-08-02-1,2026-08-02,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-08-02-2,2026-08-02,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-08-02-3,2026-08-02,P004,Butter croissant,Bakery,14,9.5,3.5,133.0,84.0,sample
+demo-2026-08-02-4,2026-08-02,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-08-02-5,2026-08-02,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-08-02-6,2026-08-02,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-08-02-7,2026-08-02,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-08-03-0,2026-08-03,P001,Flat white,Coffee,3,12,3.8,36,24.6,sample
+demo-2026-08-03-1,2026-08-03,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-08-03-2,2026-08-03,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-08-03-3,2026-08-03,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-08-03-4,2026-08-03,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-08-03-5,2026-08-03,P006,Cold brew,Coffee,2,13,3.2,26,19.6,sample
+demo-2026-08-03-6,2026-08-03,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-08-03-7,2026-08-03,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-08-04-0,2026-08-04,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-08-04-1,2026-08-04,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-08-04-2,2026-08-04,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-08-04-3,2026-08-04,P004,Butter croissant,Bakery,2,9.5,3.5,19.0,12.0,sample
+demo-2026-08-04-4,2026-08-04,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-08-04-5,2026-08-04,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-08-04-6,2026-08-04,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-08-04-7,2026-08-04,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-08-05-0,2026-08-05,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-08-05-1,2026-08-05,P002,Iced latte,Coffee,2,14,4.2,28,19.6,sample
+demo-2026-08-05-2,2026-08-05,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-08-05-3,2026-08-05,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-08-05-4,2026-08-05,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-08-05-5,2026-08-05,P006,Cold brew,Coffee,3,13,3.2,39,29.4,sample
+demo-2026-08-05-6,2026-08-05,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-08-05-7,2026-08-05,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-08-06-0,2026-08-06,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-08-06-1,2026-08-06,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-08-06-2,2026-08-06,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-08-06-3,2026-08-06,P004,Butter croissant,Bakery,3,9.5,3.5,28.5,18.0,sample
+demo-2026-08-06-4,2026-08-06,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-08-06-5,2026-08-06,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-08-06-6,2026-08-06,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-08-06-7,2026-08-06,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-08-07-0,2026-08-07,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-08-07-1,2026-08-07,P002,Iced latte,Coffee,3,14,4.2,42,29.4,sample
+demo-2026-08-07-2,2026-08-07,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-08-07-3,2026-08-07,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-08-07-4,2026-08-07,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-08-07-5,2026-08-07,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-08-07-6,2026-08-07,P007,Chocolate cookie,Bakery,2,6.5,1.8,13.0,9.4,sample
+demo-2026-08-07-7,2026-08-07,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-08-08-0,2026-08-08,P001,Flat white,Coffee,14,12,3.8,168,114.8,sample
+demo-2026-08-08-1,2026-08-08,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-08-08-2,2026-08-08,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-08-08-3,2026-08-08,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-08-08-4,2026-08-08,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-08-08-5,2026-08-08,P006,Cold brew,Coffee,13,13,3.2,169,127.4,sample
+demo-2026-08-08-6,2026-08-08,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-08-08-7,2026-08-08,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-08-09-0,2026-08-09,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-08-09-1,2026-08-09,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-08-09-2,2026-08-09,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-08-09-3,2026-08-09,P004,Butter croissant,Bakery,13,9.5,3.5,123.5,78.0,sample
+demo-2026-08-09-4,2026-08-09,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-08-09-5,2026-08-09,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-08-09-6,2026-08-09,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-08-09-7,2026-08-09,P008,Peach iced tea,Tea,14,11,2.6,154,117.6,sample
+demo-2026-08-10-0,2026-08-10,P001,Flat white,Coffee,2,12,3.8,24,16.4,sample
+demo-2026-08-10-1,2026-08-10,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-08-10-2,2026-08-10,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-08-10-3,2026-08-10,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-08-10-4,2026-08-10,P005,Banana bread,Bakery,3,8.5,2.8,25.5,17.1,sample
+demo-2026-08-10-5,2026-08-10,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-08-10-6,2026-08-10,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-08-10-7,2026-08-10,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-08-11-0,2026-08-11,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-08-11-1,2026-08-11,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-08-11-2,2026-08-11,P003,Matcha latte,Tea,3,16,5.8,48,30.6,sample
+demo-2026-08-11-3,2026-08-11,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-08-11-4,2026-08-11,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-08-11-5,2026-08-11,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-08-11-6,2026-08-11,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-08-11-7,2026-08-11,P008,Peach iced tea,Tea,2,11,2.6,22,16.8,sample
+demo-2026-08-12-0,2026-08-12,P001,Flat white,Coffee,3,12,3.8,36,24.6,sample
+demo-2026-08-12-1,2026-08-12,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-08-12-2,2026-08-12,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-08-12-3,2026-08-12,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-08-12-4,2026-08-12,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-08-12-5,2026-08-12,P006,Cold brew,Coffee,2,13,3.2,26,19.6,sample
+demo-2026-08-12-6,2026-08-12,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-08-12-7,2026-08-12,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-08-13-0,2026-08-13,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-08-13-1,2026-08-13,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-08-13-2,2026-08-13,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-08-13-3,2026-08-13,P004,Butter croissant,Bakery,2,9.5,3.5,19.0,12.0,sample
+demo-2026-08-13-4,2026-08-13,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-08-13-5,2026-08-13,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-08-13-6,2026-08-13,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-08-13-7,2026-08-13,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-08-14-0,2026-08-14,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-08-14-1,2026-08-14,P002,Iced latte,Coffee,2,14,4.2,28,19.6,sample
+demo-2026-08-14-2,2026-08-14,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-08-14-3,2026-08-14,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-08-14-4,2026-08-14,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-08-14-5,2026-08-14,P006,Cold brew,Coffee,3,13,3.2,39,29.4,sample
+demo-2026-08-14-6,2026-08-14,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-08-14-7,2026-08-14,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-08-15-0,2026-08-15,P001,Flat white,Coffee,13,12,3.8,156,106.6,sample
+demo-2026-08-15-1,2026-08-15,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-08-15-2,2026-08-15,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-08-15-3,2026-08-15,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-08-15-4,2026-08-15,P005,Banana bread,Bakery,14,8.5,2.8,119.0,79.8,sample
+demo-2026-08-15-5,2026-08-15,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-08-15-6,2026-08-15,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-08-15-7,2026-08-15,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-08-16-0,2026-08-16,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-08-16-1,2026-08-16,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-08-16-2,2026-08-16,P003,Matcha latte,Tea,14,16,5.8,224,142.8,sample
+demo-2026-08-16-3,2026-08-16,P004,Butter croissant,Bakery,12,9.5,3.5,114.0,72.0,sample
+demo-2026-08-16-4,2026-08-16,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-08-16-5,2026-08-16,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-08-16-6,2026-08-16,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-08-16-7,2026-08-16,P008,Peach iced tea,Tea,13,11,2.6,143,109.2,sample
+demo-2026-08-17-0,2026-08-17,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-08-17-1,2026-08-17,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-08-17-2,2026-08-17,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-08-17-3,2026-08-17,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-08-17-4,2026-08-17,P005,Banana bread,Bakery,2,8.5,2.8,17.0,11.4,sample
+demo-2026-08-17-5,2026-08-17,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-08-17-6,2026-08-17,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-08-17-7,2026-08-17,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-08-18-0,2026-08-18,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-08-18-1,2026-08-18,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-08-18-2,2026-08-18,P003,Matcha latte,Tea,2,16,5.8,32,20.4,sample
+demo-2026-08-18-3,2026-08-18,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-08-18-4,2026-08-18,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-08-18-5,2026-08-18,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-08-18-6,2026-08-18,P007,Chocolate cookie,Bakery,3,6.5,1.8,19.5,14.1,sample
+demo-2026-08-18-7,2026-08-18,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-08-19-0,2026-08-19,P001,Flat white,Coffee,2,12,3.8,24,16.4,sample
+demo-2026-08-19-1,2026-08-19,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-08-19-2,2026-08-19,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-08-19-3,2026-08-19,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-08-19-4,2026-08-19,P005,Banana bread,Bakery,3,8.5,2.8,25.5,17.1,sample
+demo-2026-08-19-5,2026-08-19,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-08-19-6,2026-08-19,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-08-19-7,2026-08-19,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-08-20-0,2026-08-20,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-08-20-1,2026-08-20,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-08-20-2,2026-08-20,P003,Matcha latte,Tea,3,16,5.8,48,30.6,sample
+demo-2026-08-20-3,2026-08-20,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-08-20-4,2026-08-20,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-08-20-5,2026-08-20,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-08-20-6,2026-08-20,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-08-20-7,2026-08-20,P008,Peach iced tea,Tea,2,11,2.6,22,16.8,sample
+demo-2026-08-21-0,2026-08-21,P001,Flat white,Coffee,3,12,3.8,36,24.6,sample
+demo-2026-08-21-1,2026-08-21,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-08-21-2,2026-08-21,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-08-21-3,2026-08-21,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-08-21-4,2026-08-21,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-08-21-5,2026-08-21,P006,Cold brew,Coffee,2,13,3.2,26,19.6,sample
+demo-2026-08-21-6,2026-08-21,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-08-21-7,2026-08-21,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-08-22-0,2026-08-22,P001,Flat white,Coffee,12,12,3.8,144,98.4,sample
+demo-2026-08-22-1,2026-08-22,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-08-22-2,2026-08-22,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-08-22-3,2026-08-22,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-08-22-4,2026-08-22,P005,Banana bread,Bakery,13,8.5,2.8,110.5,74.1,sample
+demo-2026-08-22-5,2026-08-22,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-08-22-6,2026-08-22,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-08-22-7,2026-08-22,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-08-23-0,2026-08-23,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-08-23-1,2026-08-23,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-08-23-2,2026-08-23,P003,Matcha latte,Tea,13,16,5.8,208,132.6,sample
+demo-2026-08-23-3,2026-08-23,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-08-23-4,2026-08-23,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-08-23-5,2026-08-23,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-08-23-6,2026-08-23,P007,Chocolate cookie,Bakery,14,6.5,1.8,91.0,65.8,sample
+demo-2026-08-23-7,2026-08-23,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-08-24-0,2026-08-24,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-08-24-1,2026-08-24,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-08-24-2,2026-08-24,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-08-24-3,2026-08-24,P004,Butter croissant,Bakery,3,9.5,3.5,28.5,18.0,sample
+demo-2026-08-24-4,2026-08-24,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-08-24-5,2026-08-24,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-08-24-6,2026-08-24,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-08-24-7,2026-08-24,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-08-25-0,2026-08-25,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-08-25-1,2026-08-25,P002,Iced latte,Coffee,3,14,4.2,42,29.4,sample
+demo-2026-08-25-2,2026-08-25,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-08-25-3,2026-08-25,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-08-25-4,2026-08-25,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-08-25-5,2026-08-25,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-08-25-6,2026-08-25,P007,Chocolate cookie,Bakery,2,6.5,1.8,13.0,9.4,sample
+demo-2026-08-25-7,2026-08-25,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-08-26-0,2026-08-26,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-08-26-1,2026-08-26,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-08-26-2,2026-08-26,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-08-26-3,2026-08-26,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-08-26-4,2026-08-26,P005,Banana bread,Bakery,2,8.5,2.8,17.0,11.4,sample
+demo-2026-08-26-5,2026-08-26,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-08-26-6,2026-08-26,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-08-26-7,2026-08-26,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-08-27-0,2026-08-27,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-08-27-1,2026-08-27,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-08-27-2,2026-08-27,P003,Matcha latte,Tea,2,16,5.8,32,20.4,sample
+demo-2026-08-27-3,2026-08-27,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-08-27-4,2026-08-27,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-08-27-5,2026-08-27,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-08-27-6,2026-08-27,P007,Chocolate cookie,Bakery,3,6.5,1.8,19.5,14.1,sample
+demo-2026-08-27-7,2026-08-27,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-08-28-0,2026-08-28,P001,Flat white,Coffee,2,12,3.8,24,16.4,sample
+demo-2026-08-28-1,2026-08-28,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-08-28-2,2026-08-28,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-08-28-3,2026-08-28,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-08-28-4,2026-08-28,P005,Banana bread,Bakery,3,8.5,2.8,25.5,17.1,sample
+demo-2026-08-28-5,2026-08-28,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-08-28-6,2026-08-28,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-08-28-7,2026-08-28,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-08-29-0,2026-08-29,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-08-29-1,2026-08-29,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-08-29-2,2026-08-29,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-08-29-3,2026-08-29,P004,Butter croissant,Bakery,14,9.5,3.5,133.0,84.0,sample
+demo-2026-08-29-4,2026-08-29,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-08-29-5,2026-08-29,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-08-29-6,2026-08-29,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-08-29-7,2026-08-29,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-08-30-0,2026-08-30,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-08-30-1,2026-08-30,P002,Iced latte,Coffee,14,14,4.2,196,137.2,sample
+demo-2026-08-30-2,2026-08-30,P003,Matcha latte,Tea,12,16,5.8,192,122.4,sample
+demo-2026-08-30-3,2026-08-30,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-08-30-4,2026-08-30,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-08-30-5,2026-08-30,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-08-30-6,2026-08-30,P007,Chocolate cookie,Bakery,13,6.5,1.8,84.5,61.1,sample
+demo-2026-08-30-7,2026-08-30,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-08-31-0,2026-08-31,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-08-31-1,2026-08-31,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-08-31-2,2026-08-31,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-08-31-3,2026-08-31,P004,Butter croissant,Bakery,2,9.5,3.5,19.0,12.0,sample
+demo-2026-08-31-4,2026-08-31,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-08-31-5,2026-08-31,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-08-31-6,2026-08-31,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-08-31-7,2026-08-31,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-09-01-0,2026-09-01,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-09-01-1,2026-09-01,P002,Iced latte,Coffee,3,14,4.2,42,29.4,sample
+demo-2026-09-01-2,2026-09-01,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-09-01-3,2026-09-01,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-09-01-4,2026-09-01,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-09-01-5,2026-09-01,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-09-01-6,2026-09-01,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-09-01-7,2026-09-01,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-09-02-0,2026-09-02,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-09-02-1,2026-09-02,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-09-02-2,2026-09-02,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-09-02-3,2026-09-02,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-09-02-4,2026-09-02,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-09-02-5,2026-09-02,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-09-02-6,2026-09-02,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-09-02-7,2026-09-02,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-09-03-0,2026-09-03,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-09-03-1,2026-09-03,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-09-03-2,2026-09-03,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-09-03-3,2026-09-03,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-09-03-4,2026-09-03,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-09-03-5,2026-09-03,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-09-03-6,2026-09-03,P007,Chocolate cookie,Bakery,3,6.5,1.8,19.5,14.1,sample
+demo-2026-09-03-7,2026-09-03,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-09-04-0,2026-09-04,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-09-04-1,2026-09-04,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-09-04-2,2026-09-04,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-09-04-3,2026-09-04,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-09-04-4,2026-09-04,P005,Banana bread,Bakery,3,8.5,2.8,25.5,17.1,sample
+demo-2026-09-04-5,2026-09-04,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-09-04-6,2026-09-04,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-09-04-7,2026-09-04,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-09-05-0,2026-09-05,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-09-05-1,2026-09-05,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-09-05-2,2026-09-05,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-09-05-3,2026-09-05,P004,Butter croissant,Bakery,14,9.5,3.5,133.0,84.0,sample
+demo-2026-09-05-4,2026-09-05,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-09-05-5,2026-09-05,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-09-05-6,2026-09-05,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-09-05-7,2026-09-05,P008,Peach iced tea,Tea,15,11,2.6,165,126.0,sample
+demo-2026-09-06-0,2026-09-06,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-09-06-1,2026-09-06,P002,Iced latte,Coffee,14,14,4.2,196,137.2,sample
+demo-2026-09-06-2,2026-09-06,P003,Matcha latte,Tea,12,16,5.8,192,122.4,sample
+demo-2026-09-06-3,2026-09-06,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-09-06-4,2026-09-06,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-09-06-5,2026-09-06,P006,Cold brew,Coffee,15,13,3.2,195,147.0,sample
+demo-2026-09-06-6,2026-09-06,P007,Chocolate cookie,Bakery,13,6.5,1.8,84.5,61.1,sample
+demo-2026-09-06-7,2026-09-06,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-09-07-0,2026-09-07,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-09-07-1,2026-09-07,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-09-07-2,2026-09-07,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-09-07-3,2026-09-07,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-09-07-4,2026-09-07,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-09-07-5,2026-09-07,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-09-07-6,2026-09-07,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-09-07-7,2026-09-07,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-09-08-0,2026-09-08,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-09-08-1,2026-09-08,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-09-08-2,2026-09-08,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-09-08-3,2026-09-08,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-09-08-4,2026-09-08,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-09-08-5,2026-09-08,P006,Cold brew,Coffee,3,13,3.2,39,29.4,sample
+demo-2026-09-08-6,2026-09-08,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-09-08-7,2026-09-08,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-09-09-0,2026-09-09,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-09-09-1,2026-09-09,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-09-09-2,2026-09-09,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-09-09-3,2026-09-09,P004,Butter croissant,Bakery,3,9.5,3.5,28.5,18.0,sample
+demo-2026-09-09-4,2026-09-09,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-09-09-5,2026-09-09,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-09-09-6,2026-09-09,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-09-09-7,2026-09-09,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-09-10-0,2026-09-10,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-09-10-1,2026-09-10,P002,Iced latte,Coffee,3,14,4.2,42,29.4,sample
+demo-2026-09-10-2,2026-09-10,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-09-10-3,2026-09-10,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-09-10-4,2026-09-10,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-09-10-5,2026-09-10,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-09-10-6,2026-09-10,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-09-10-7,2026-09-10,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-09-11-0,2026-09-11,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-09-11-1,2026-09-11,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-09-11-2,2026-09-11,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-09-11-3,2026-09-11,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-09-11-4,2026-09-11,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-09-11-5,2026-09-11,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-09-11-6,2026-09-11,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-09-11-7,2026-09-11,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-09-12-0,2026-09-12,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-09-12-1,2026-09-12,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-09-12-2,2026-09-12,P003,Matcha latte,Tea,15,16,5.8,240,153.0,sample
+demo-2026-09-12-3,2026-09-12,P004,Butter croissant,Bakery,13,9.5,3.5,123.5,78.0,sample
+demo-2026-09-12-4,2026-09-12,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-09-12-5,2026-09-12,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-09-12-6,2026-09-12,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-09-12-7,2026-09-12,P008,Peach iced tea,Tea,14,11,2.6,154,117.6,sample
+demo-2026-09-13-0,2026-09-13,P001,Flat white,Coffee,15,12,3.8,180,123.0,sample
+demo-2026-09-13-1,2026-09-13,P002,Iced latte,Coffee,13,14,4.2,182,127.4,sample
+demo-2026-09-13-2,2026-09-13,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-09-13-3,2026-09-13,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-09-13-4,2026-09-13,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-09-13-5,2026-09-13,P006,Cold brew,Coffee,14,13,3.2,182,137.2,sample
+demo-2026-09-13-6,2026-09-13,P007,Chocolate cookie,Bakery,12,6.5,1.8,78.0,56.4,sample
+demo-2026-09-13-7,2026-09-13,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-09-14-0,2026-09-14,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-09-14-1,2026-09-14,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-09-14-2,2026-09-14,P003,Matcha latte,Tea,3,16,5.8,48,30.6,sample
+demo-2026-09-14-3,2026-09-14,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-09-14-4,2026-09-14,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-09-14-5,2026-09-14,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-09-14-6,2026-09-14,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-09-14-7,2026-09-14,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-09-15-0,2026-09-15,P001,Flat white,Coffee,3,12,3.8,36,24.6,sample
+demo-2026-09-15-1,2026-09-15,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-09-15-2,2026-09-15,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-09-15-3,2026-09-15,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-09-15-4,2026-09-15,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-09-15-5,2026-09-15,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-09-15-6,2026-09-15,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-09-15-7,2026-09-15,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-09-16-0,2026-09-16,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-09-16-1,2026-09-16,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-09-16-2,2026-09-16,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-09-16-3,2026-09-16,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-09-16-4,2026-09-16,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-09-16-5,2026-09-16,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-09-16-6,2026-09-16,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-09-16-7,2026-09-16,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-09-17-0,2026-09-17,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-09-17-1,2026-09-17,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-09-17-2,2026-09-17,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-09-17-3,2026-09-17,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-09-17-4,2026-09-17,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-09-17-5,2026-09-17,P006,Cold brew,Coffee,3,13,3.2,39,29.4,sample
+demo-2026-09-17-6,2026-09-17,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-09-17-7,2026-09-17,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-09-18-0,2026-09-18,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-09-18-1,2026-09-18,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-09-18-2,2026-09-18,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-09-18-3,2026-09-18,P004,Butter croissant,Bakery,3,9.5,3.5,28.5,18.0,sample
+demo-2026-09-18-4,2026-09-18,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-09-18-5,2026-09-18,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-09-18-6,2026-09-18,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-09-18-7,2026-09-18,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-09-19-0,2026-09-19,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-09-19-1,2026-09-19,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-09-19-2,2026-09-19,P003,Matcha latte,Tea,14,16,5.8,224,142.8,sample
+demo-2026-09-19-3,2026-09-19,P004,Butter croissant,Bakery,12,9.5,3.5,114.0,72.0,sample
+demo-2026-09-19-4,2026-09-19,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-09-19-5,2026-09-19,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-09-19-6,2026-09-19,P007,Chocolate cookie,Bakery,15,6.5,1.8,97.5,70.5,sample
+demo-2026-09-19-7,2026-09-19,P008,Peach iced tea,Tea,13,11,2.6,143,109.2,sample
+demo-2026-09-20-0,2026-09-20,P001,Flat white,Coffee,14,12,3.8,168,114.8,sample
+demo-2026-09-20-1,2026-09-20,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-09-20-2,2026-09-20,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-09-20-3,2026-09-20,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-09-20-4,2026-09-20,P005,Banana bread,Bakery,15,8.5,2.8,127.5,85.5,sample
+demo-2026-09-20-5,2026-09-20,P006,Cold brew,Coffee,13,13,3.2,169,127.4,sample
+demo-2026-09-20-6,2026-09-20,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-09-20-7,2026-09-20,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-09-21-0,2026-09-21,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-09-21-1,2026-09-21,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-09-21-2,2026-09-21,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-09-21-3,2026-09-21,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-09-21-4,2026-09-21,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-09-21-5,2026-09-21,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-09-21-6,2026-09-21,P007,Chocolate cookie,Bakery,3,6.5,1.8,19.5,14.1,sample
+demo-2026-09-21-7,2026-09-21,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-09-22-0,2026-09-22,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-09-22-1,2026-09-22,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-09-22-2,2026-09-22,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-09-22-3,2026-09-22,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-09-22-4,2026-09-22,P005,Banana bread,Bakery,3,8.5,2.8,25.5,17.1,sample
+demo-2026-09-22-5,2026-09-22,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-09-22-6,2026-09-22,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-09-22-7,2026-09-22,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-09-23-0,2026-09-23,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-09-23-1,2026-09-23,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-09-23-2,2026-09-23,P003,Matcha latte,Tea,3,16,5.8,48,30.6,sample
+demo-2026-09-23-3,2026-09-23,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-09-23-4,2026-09-23,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-09-23-5,2026-09-23,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-09-23-6,2026-09-23,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-09-23-7,2026-09-23,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-09-24-0,2026-09-24,P001,Flat white,Coffee,3,12,3.8,36,24.6,sample
+demo-2026-09-24-1,2026-09-24,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-09-24-2,2026-09-24,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-09-24-3,2026-09-24,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-09-24-4,2026-09-24,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-09-24-5,2026-09-24,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-09-24-6,2026-09-24,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-09-24-7,2026-09-24,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-09-25-0,2026-09-25,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-09-25-1,2026-09-25,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-09-25-2,2026-09-25,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-09-25-3,2026-09-25,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-09-25-4,2026-09-25,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-09-25-5,2026-09-25,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-09-25-6,2026-09-25,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-09-25-7,2026-09-25,P008,Peach iced tea,Tea,3,11,2.6,33,25.2,sample
+demo-2026-09-26-0,2026-09-26,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-09-26-1,2026-09-26,P002,Iced latte,Coffee,15,14,4.2,210,147.0,sample
+demo-2026-09-26-2,2026-09-26,P003,Matcha latte,Tea,13,16,5.8,208,132.6,sample
+demo-2026-09-26-3,2026-09-26,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-09-26-4,2026-09-26,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-09-26-5,2026-09-26,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-09-26-6,2026-09-26,P007,Chocolate cookie,Bakery,14,6.5,1.8,91.0,65.8,sample
+demo-2026-09-26-7,2026-09-26,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-09-27-0,2026-09-27,P001,Flat white,Coffee,13,12,3.8,156,106.6,sample
+demo-2026-09-27-1,2026-09-27,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-09-27-2,2026-09-27,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-09-27-3,2026-09-27,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-09-27-4,2026-09-27,P005,Banana bread,Bakery,14,8.5,2.8,119.0,79.8,sample
+demo-2026-09-27-5,2026-09-27,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-09-27-6,2026-09-27,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-09-27-7,2026-09-27,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-09-28-0,2026-09-28,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-09-28-1,2026-09-28,P002,Iced latte,Coffee,3,14,4.2,42,29.4,sample
+demo-2026-09-28-2,2026-09-28,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-09-28-3,2026-09-28,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-09-28-4,2026-09-28,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-09-28-5,2026-09-28,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-09-28-6,2026-09-28,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-09-28-7,2026-09-28,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-09-29-0,2026-09-29,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-09-29-1,2026-09-29,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-09-29-2,2026-09-29,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-09-29-3,2026-09-29,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-09-29-4,2026-09-29,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-09-29-5,2026-09-29,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-09-29-6,2026-09-29,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-09-29-7,2026-09-29,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-09-30-0,2026-09-30,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-09-30-1,2026-09-30,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-09-30-2,2026-09-30,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-09-30-3,2026-09-30,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-09-30-4,2026-09-30,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-09-30-5,2026-09-30,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-09-30-6,2026-09-30,P007,Chocolate cookie,Bakery,3,6.5,1.8,19.5,14.1,sample
+demo-2026-09-30-7,2026-09-30,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-10-01-0,2026-10-01,P001,Flat white,Coffee,12,12,3.8,144,98.4,sample
+demo-2026-10-01-1,2026-10-01,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-10-01-2,2026-10-01,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-10-01-3,2026-10-01,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-10-01-4,2026-10-01,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-10-01-5,2026-10-01,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-10-01-6,2026-10-01,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-10-01-7,2026-10-01,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-10-02-0,2026-10-02,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-10-02-1,2026-10-02,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-10-02-2,2026-10-02,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-10-02-3,2026-10-02,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-10-02-4,2026-10-02,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-10-02-5,2026-10-02,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-10-02-6,2026-10-02,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-10-02-7,2026-10-02,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-10-03-0,2026-10-03,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-10-03-1,2026-10-03,P002,Iced latte,Coffee,15,14,4.2,210,147.0,sample
+demo-2026-10-03-2,2026-10-03,P003,Matcha latte,Tea,13,16,5.8,208,132.6,sample
+demo-2026-10-03-3,2026-10-03,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-10-03-4,2026-10-03,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-10-03-5,2026-10-03,P006,Cold brew,Coffee,16,13,3.2,208,156.8,sample
+demo-2026-10-03-6,2026-10-03,P007,Chocolate cookie,Bakery,14,6.5,1.8,91.0,65.8,sample
+demo-2026-10-03-7,2026-10-03,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-10-04-0,2026-10-04,P001,Flat white,Coffee,13,12,3.8,156,106.6,sample
+demo-2026-10-04-1,2026-10-04,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-10-04-2,2026-10-04,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-10-04-3,2026-10-04,P004,Butter croissant,Bakery,16,9.5,3.5,152.0,96.0,sample
+demo-2026-10-04-4,2026-10-04,P005,Banana bread,Bakery,14,8.5,2.8,119.0,79.8,sample
+demo-2026-10-04-5,2026-10-04,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-10-04-6,2026-10-04,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-10-04-7,2026-10-04,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-10-05-0,2026-10-05,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-10-05-1,2026-10-05,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-10-05-2,2026-10-05,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-10-05-3,2026-10-05,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-10-05-4,2026-10-05,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-10-05-5,2026-10-05,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-10-05-6,2026-10-05,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-10-05-7,2026-10-05,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-10-06-0,2026-10-06,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-10-06-1,2026-10-06,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-10-06-2,2026-10-06,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-10-06-3,2026-10-06,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-10-06-4,2026-10-06,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-10-06-5,2026-10-06,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-10-06-6,2026-10-06,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-10-06-7,2026-10-06,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-10-07-0,2026-10-07,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-10-07-1,2026-10-07,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-10-07-2,2026-10-07,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-10-07-3,2026-10-07,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-10-07-4,2026-10-07,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-10-07-5,2026-10-07,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-10-07-6,2026-10-07,P007,Chocolate cookie,Bakery,12,6.5,1.8,78.0,56.4,sample
+demo-2026-10-07-7,2026-10-07,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-10-08-0,2026-10-08,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-10-08-1,2026-10-08,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-10-08-2,2026-10-08,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-10-08-3,2026-10-08,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-10-08-4,2026-10-08,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-10-08-5,2026-10-08,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-10-08-6,2026-10-08,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-10-08-7,2026-10-08,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-10-09-0,2026-10-09,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-10-09-1,2026-10-09,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-10-09-2,2026-10-09,P003,Matcha latte,Tea,12,16,5.8,192,122.4,sample
+demo-2026-10-09-3,2026-10-09,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-10-09-4,2026-10-09,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-10-09-5,2026-10-09,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-10-09-6,2026-10-09,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-10-09-7,2026-10-09,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-10-10-0,2026-10-10,P001,Flat white,Coffee,16,12,3.8,192,131.2,sample
+demo-2026-10-10-1,2026-10-10,P002,Iced latte,Coffee,14,14,4.2,196,137.2,sample
+demo-2026-10-10-2,2026-10-10,P003,Matcha latte,Tea,12,16,5.8,192,122.4,sample
+demo-2026-10-10-3,2026-10-10,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-10-10-4,2026-10-10,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-10-10-5,2026-10-10,P006,Cold brew,Coffee,15,13,3.2,195,147.0,sample
+demo-2026-10-10-6,2026-10-10,P007,Chocolate cookie,Bakery,13,6.5,1.8,84.5,61.1,sample
+demo-2026-10-10-7,2026-10-10,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-10-11-0,2026-10-11,P001,Flat white,Coffee,12,12,3.8,144,98.4,sample
+demo-2026-10-11-1,2026-10-11,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-10-11-2,2026-10-11,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-10-11-3,2026-10-11,P004,Butter croissant,Bakery,15,9.5,3.5,142.5,90.0,sample
+demo-2026-10-11-4,2026-10-11,P005,Banana bread,Bakery,13,8.5,2.8,110.5,74.1,sample
+demo-2026-10-11-5,2026-10-11,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-10-11-6,2026-10-11,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-10-11-7,2026-10-11,P008,Peach iced tea,Tea,16,11,2.6,176,134.4,sample
+demo-2026-10-12-0,2026-10-12,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-10-12-1,2026-10-12,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-10-12-2,2026-10-12,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-10-12-3,2026-10-12,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-10-12-4,2026-10-12,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-10-12-5,2026-10-12,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-10-12-6,2026-10-12,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-10-12-7,2026-10-12,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-10-13-0,2026-10-13,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-10-13-1,2026-10-13,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-10-13-2,2026-10-13,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-10-13-3,2026-10-13,P004,Butter croissant,Bakery,12,9.5,3.5,114.0,72.0,sample
+demo-2026-10-13-4,2026-10-13,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-10-13-5,2026-10-13,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-10-13-6,2026-10-13,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-10-13-7,2026-10-13,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-10-14-0,2026-10-14,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-10-14-1,2026-10-14,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-10-14-2,2026-10-14,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-10-14-3,2026-10-14,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-10-14-4,2026-10-14,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-10-14-5,2026-10-14,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-10-14-6,2026-10-14,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-10-14-7,2026-10-14,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-10-15-0,2026-10-15,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-10-15-1,2026-10-15,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-10-15-2,2026-10-15,P003,Matcha latte,Tea,6,16,5.8,96,61.2,sample
+demo-2026-10-15-3,2026-10-15,P004,Butter croissant,Bakery,4,9.5,3.5,38.0,24.0,sample
+demo-2026-10-15-4,2026-10-15,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-10-15-5,2026-10-15,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-10-15-6,2026-10-15,P007,Chocolate cookie,Bakery,7,6.5,1.8,45.5,32.9,sample
+demo-2026-10-15-7,2026-10-15,P008,Peach iced tea,Tea,5,11,2.6,55,42.0,sample
+demo-2026-10-16-0,2026-10-16,P001,Flat white,Coffee,6,12,3.8,72,49.2,sample
+demo-2026-10-16-1,2026-10-16,P002,Iced latte,Coffee,4,14,4.2,56,39.2,sample
+demo-2026-10-16-2,2026-10-16,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-10-16-3,2026-10-16,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-10-16-4,2026-10-16,P005,Banana bread,Bakery,7,8.5,2.8,59.5,39.9,sample
+demo-2026-10-16-5,2026-10-16,P006,Cold brew,Coffee,5,13,3.2,65,49.0,sample
+demo-2026-10-16-6,2026-10-16,P007,Chocolate cookie,Bakery,12,6.5,1.8,78.0,56.4,sample
+demo-2026-10-16-7,2026-10-16,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-10-17-0,2026-10-17,P001,Flat white,Coffee,15,12,3.8,180,123.0,sample
+demo-2026-10-17-1,2026-10-17,P002,Iced latte,Coffee,13,14,4.2,182,127.4,sample
+demo-2026-10-17-2,2026-10-17,P003,Matcha latte,Tea,11,16,5.8,176,112.2,sample
+demo-2026-10-17-3,2026-10-17,P004,Butter croissant,Bakery,9,9.5,3.5,85.5,54.0,sample
+demo-2026-10-17-4,2026-10-17,P005,Banana bread,Bakery,16,8.5,2.8,136.0,91.2,sample
+demo-2026-10-17-5,2026-10-17,P006,Cold brew,Coffee,14,13,3.2,182,137.2,sample
+demo-2026-10-17-6,2026-10-17,P007,Chocolate cookie,Bakery,12,6.5,1.8,78.0,56.4,sample
+demo-2026-10-17-7,2026-10-17,P008,Peach iced tea,Tea,10,11,2.6,110,84.0,sample
+demo-2026-10-18-0,2026-10-18,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-10-18-1,2026-10-18,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-10-18-2,2026-10-18,P003,Matcha latte,Tea,16,16,5.8,256,163.2,sample
+demo-2026-10-18-3,2026-10-18,P004,Butter croissant,Bakery,14,9.5,3.5,133.0,84.0,sample
+demo-2026-10-18-4,2026-10-18,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-10-18-5,2026-10-18,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-10-18-6,2026-10-18,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-10-18-7,2026-10-18,P008,Peach iced tea,Tea,15,11,2.6,165,126.0,sample
+demo-2026-10-19-0,2026-10-19,P001,Flat white,Coffee,12,12,3.8,144,98.4,sample
+demo-2026-10-19-1,2026-10-19,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-10-19-2,2026-10-19,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-10-19-3,2026-10-19,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-10-19-4,2026-10-19,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-10-19-5,2026-10-19,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-10-19-6,2026-10-19,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-10-19-7,2026-10-19,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-10-20-0,2026-10-20,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-10-20-1,2026-10-20,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-10-20-2,2026-10-20,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-10-20-3,2026-10-20,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-10-20-4,2026-10-20,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-10-20-5,2026-10-20,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-10-20-6,2026-10-20,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-10-20-7,2026-10-20,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-10-21-0,2026-10-21,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-10-21-1,2026-10-21,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-10-21-2,2026-10-21,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-10-21-3,2026-10-21,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-10-21-4,2026-10-21,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-10-21-5,2026-10-21,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-10-21-6,2026-10-21,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-10-21-7,2026-10-21,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
+demo-2026-10-22-0,2026-10-22,P001,Flat white,Coffee,9,12,3.8,108,73.8,sample
+demo-2026-10-22-1,2026-10-22,P002,Iced latte,Coffee,7,14,4.2,98,68.6,sample
+demo-2026-10-22-2,2026-10-22,P003,Matcha latte,Tea,5,16,5.8,80,51.0,sample
+demo-2026-10-22-3,2026-10-22,P004,Butter croissant,Bakery,12,9.5,3.5,114.0,72.0,sample
+demo-2026-10-22-4,2026-10-22,P005,Banana bread,Bakery,10,8.5,2.8,85.0,57.0,sample
+demo-2026-10-22-5,2026-10-22,P006,Cold brew,Coffee,8,13,3.2,104,78.4,sample
+demo-2026-10-22-6,2026-10-22,P007,Chocolate cookie,Bakery,6,6.5,1.8,39.0,28.2,sample
+demo-2026-10-22-7,2026-10-22,P008,Peach iced tea,Tea,4,11,2.6,44,33.6,sample
+demo-2026-10-23-0,2026-10-23,P001,Flat white,Coffee,5,12,3.8,60,41.0,sample
+demo-2026-10-23-1,2026-10-23,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-10-23-2,2026-10-23,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-10-23-3,2026-10-23,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-10-23-4,2026-10-23,P005,Banana bread,Bakery,6,8.5,2.8,51.0,34.2,sample
+demo-2026-10-23-5,2026-10-23,P006,Cold brew,Coffee,4,13,3.2,52,39.2,sample
+demo-2026-10-23-6,2026-10-23,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-10-23-7,2026-10-23,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-10-24-0,2026-10-24,P001,Flat white,Coffee,14,12,3.8,168,114.8,sample
+demo-2026-10-24-1,2026-10-24,P002,Iced latte,Coffee,12,14,4.2,168,117.6,sample
+demo-2026-10-24-2,2026-10-24,P003,Matcha latte,Tea,10,16,5.8,160,102.0,sample
+demo-2026-10-24-3,2026-10-24,P004,Butter croissant,Bakery,8,9.5,3.5,76.0,48.0,sample
+demo-2026-10-24-4,2026-10-24,P005,Banana bread,Bakery,15,8.5,2.8,127.5,85.5,sample
+demo-2026-10-24-5,2026-10-24,P006,Cold brew,Coffee,13,13,3.2,169,127.4,sample
+demo-2026-10-24-6,2026-10-24,P007,Chocolate cookie,Bakery,11,6.5,1.8,71.5,51.7,sample
+demo-2026-10-24-7,2026-10-24,P008,Peach iced tea,Tea,9,11,2.6,99,75.6,sample
+demo-2026-10-25-0,2026-10-25,P001,Flat white,Coffee,10,12,3.8,120,82.0,sample
+demo-2026-10-25-1,2026-10-25,P002,Iced latte,Coffee,8,14,4.2,112,78.4,sample
+demo-2026-10-25-2,2026-10-25,P003,Matcha latte,Tea,15,16,5.8,240,153.0,sample
+demo-2026-10-25-3,2026-10-25,P004,Butter croissant,Bakery,13,9.5,3.5,123.5,78.0,sample
+demo-2026-10-25-4,2026-10-25,P005,Banana bread,Bakery,11,8.5,2.8,93.5,62.7,sample
+demo-2026-10-25-5,2026-10-25,P006,Cold brew,Coffee,9,13,3.2,117,88.2,sample
+demo-2026-10-25-6,2026-10-25,P007,Chocolate cookie,Bakery,16,6.5,1.8,104.0,75.2,sample
+demo-2026-10-25-7,2026-10-25,P008,Peach iced tea,Tea,14,11,2.6,154,117.6,sample
+demo-2026-10-26-0,2026-10-26,P001,Flat white,Coffee,11,12,3.8,132,90.2,sample
+demo-2026-10-26-1,2026-10-26,P002,Iced latte,Coffee,9,14,4.2,126,88.2,sample
+demo-2026-10-26-2,2026-10-26,P003,Matcha latte,Tea,7,16,5.8,112,71.4,sample
+demo-2026-10-26-3,2026-10-26,P004,Butter croissant,Bakery,5,9.5,3.5,47.5,30.0,sample
+demo-2026-10-26-4,2026-10-26,P005,Banana bread,Bakery,12,8.5,2.8,102.0,68.4,sample
+demo-2026-10-26-5,2026-10-26,P006,Cold brew,Coffee,10,13,3.2,130,98.0,sample
+demo-2026-10-26-6,2026-10-26,P007,Chocolate cookie,Bakery,8,6.5,1.8,52.0,37.6,sample
+demo-2026-10-26-7,2026-10-26,P008,Peach iced tea,Tea,6,11,2.6,66,50.4,sample
+demo-2026-10-27-0,2026-10-27,P001,Flat white,Coffee,7,12,3.8,84,57.4,sample
+demo-2026-10-27-1,2026-10-27,P002,Iced latte,Coffee,5,14,4.2,70,49.0,sample
+demo-2026-10-27-2,2026-10-27,P003,Matcha latte,Tea,12,16,5.8,192,122.4,sample
+demo-2026-10-27-3,2026-10-27,P004,Butter croissant,Bakery,10,9.5,3.5,95.0,60.0,sample
+demo-2026-10-27-4,2026-10-27,P005,Banana bread,Bakery,8,8.5,2.8,68.0,45.6,sample
+demo-2026-10-27-5,2026-10-27,P006,Cold brew,Coffee,6,13,3.2,78,58.8,sample
+demo-2026-10-27-6,2026-10-27,P007,Chocolate cookie,Bakery,4,6.5,1.8,26.0,18.8,sample
+demo-2026-10-27-7,2026-10-27,P008,Peach iced tea,Tea,11,11,2.6,121,92.4,sample
+demo-2026-10-28-0,2026-10-28,P001,Flat white,Coffee,12,12,3.8,144,98.4,sample
+demo-2026-10-28-1,2026-10-28,P002,Iced latte,Coffee,10,14,4.2,140,98.0,sample
+demo-2026-10-28-2,2026-10-28,P003,Matcha latte,Tea,8,16,5.8,128,81.6,sample
+demo-2026-10-28-3,2026-10-28,P004,Butter croissant,Bakery,6,9.5,3.5,57.0,36.0,sample
+demo-2026-10-28-4,2026-10-28,P005,Banana bread,Bakery,4,8.5,2.8,34.0,22.8,sample
+demo-2026-10-28-5,2026-10-28,P006,Cold brew,Coffee,11,13,3.2,143,107.8,sample
+demo-2026-10-28-6,2026-10-28,P007,Chocolate cookie,Bakery,9,6.5,1.8,58.5,42.3,sample
+demo-2026-10-28-7,2026-10-28,P008,Peach iced tea,Tea,7,11,2.6,77,58.8,sample
+demo-2026-10-29-0,2026-10-29,P001,Flat white,Coffee,8,12,3.8,96,65.6,sample
+demo-2026-10-29-1,2026-10-29,P002,Iced latte,Coffee,6,14,4.2,84,58.8,sample
+demo-2026-10-29-2,2026-10-29,P003,Matcha latte,Tea,4,16,5.8,64,40.8,sample
+demo-2026-10-29-3,2026-10-29,P004,Butter croissant,Bakery,11,9.5,3.5,104.5,66.0,sample
+demo-2026-10-29-4,2026-10-29,P005,Banana bread,Bakery,9,8.5,2.8,76.5,51.3,sample
+demo-2026-10-29-5,2026-10-29,P006,Cold brew,Coffee,7,13,3.2,91,68.6,sample
+demo-2026-10-29-6,2026-10-29,P007,Chocolate cookie,Bakery,5,6.5,1.8,32.5,23.5,sample
+demo-2026-10-29-7,2026-10-29,P008,Peach iced tea,Tea,12,11,2.6,132,100.8,sample
+demo-2026-10-30-0,2026-10-30,P001,Flat white,Coffee,4,12,3.8,48,32.8,sample
+demo-2026-10-30-1,2026-10-30,P002,Iced latte,Coffee,11,14,4.2,154,107.8,sample
+demo-2026-10-30-2,2026-10-30,P003,Matcha latte,Tea,9,16,5.8,144,91.8,sample
+demo-2026-10-30-3,2026-10-30,P004,Butter croissant,Bakery,7,9.5,3.5,66.5,42.0,sample
+demo-2026-10-30-4,2026-10-30,P005,Banana bread,Bakery,5,8.5,2.8,42.5,28.5,sample
+demo-2026-10-30-5,2026-10-30,P006,Cold brew,Coffee,12,13,3.2,156,117.6,sample
+demo-2026-10-30-6,2026-10-30,P007,Chocolate cookie,Bakery,10,6.5,1.8,65.0,47.0,sample
+demo-2026-10-30-7,2026-10-30,P008,Peach iced tea,Tea,8,11,2.6,88,67.2,sample
